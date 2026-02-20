@@ -1,6 +1,9 @@
 <div align="center">
-  <img src="logo.png" alt="BCamRemote" width="200">
-</div>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 20px;">
+  <circle cx="128" cy="128" r="80" stroke="#F5792A" stroke-width="10" fill="none"/>
+  <circle cx="128" cy="128" r="40" stroke="#000" stroke-width="8" fill="none"/>
+  <line x1="128" y1="48" x2="128" y2="208" stroke="#000" stroke-width="6"/>
+</svg>
 
 # BCamRemote - Mobile Camera Control Addon for Blender
 
