@@ -1,113 +1,127 @@
-# BCamRemote - L'Addon de Contrôle Caméra Mobile pour Blender
+<div align="center">
+  <img src="logo.png" alt="BCamRemote" width="200">
+</div>
 
-## 🎬 Vue d'ensemble
+# BCamRemote - Mobile Camera Control Addon for Blender
 
-**BCamRemote** est un addon Blender révolutionnaire qui transforme votre smartphone en télécommande de caméra professionnelle. Contrôlez vos caméras Blender en temps réel depuis votre appareil mobile, enregistrez des mouvements de caméra fluides et prévisualisez instantanément vos animations.
-
----
-
-## ✨ Caractéristiques principales
-
-### 🎮 Contrôle Caméra Intuitif
-- **Contrôle orienté** : Utilisez les capteurs de mouvement de votre smartphone (accéléromètre + gyroscope) pour orienter la caméra en temps réel
-- **Mouvement fluide** : Système d'inertie physique réaliste pour des mouvements naturels et contrôlés
-- **Contrôle de distance** : Ajustez la distance focale directement depuis l'interface mobile
-- **Joystick virtuel** : Navigation multi-axes (X, Y, Z) pour une liberté totale de mouvement
-
-### 📹 Streaming Vidéo en Direct
-- **Viewport en direct** : Visualisez le rendu Blender sur votre téléphone en temps réel
-- **Résolutions configurables** : Choisissez entre SD (854x480), HD (1280x720), Full HD (1920x1080) ou personnalisé jusqu'à 4K
-- **Optimisation réseau** : Compression adaptative pour une fluidité même sur connexions moins stables
-- **Latence minimale** : Streaming optimisé pour une réactivité maximale
-
-### 📍 Gestion Multi-Caméra
-- **Créer et gérer plusieurs caméras** : Switchez facilement entre différentes caméras de la scène
-- **Caméra sélectionnée automatique** : La sélection se met à jour en temps réel dans Blender
-- **Statut des keyframes** : Visualisez rapidement si une caméra possède des keyframes
-- **Suppression sécurisée** : Dialogues de confirmation pour éviter les suppressions accidentelles
-
-### 🎞️ Enregistrement d'Animations
-- **Capture de mouvements** : Enregistrez chaque mouvement de caméra avec précision
-- **Keyframes automatiques** : Génération automatique des keyframes basée sur les données de mouvement
-- **Timeline synchronisée** : Alignement parfait avec la timeline Blender (FPS configurable)
-- **Prévisualisation instant** : Testez vos animations avant de les valider
-- **Gestion des keyframes** : Visualisez, prévisualisez ou supprimez les keyframes existantes
-
-### 🔗 Connexion Facilitée
-- **QR Code intégré** : Génération automatique de QR code pour une connexion sans saisie manuelle
-- **Détection IP automatique** : Configuration instantanée de l'adresse serveur
-- **Serveur socket robuste** : Communication bidirectionnelle stable et fiable
-- **Configuration simple** : Interface minimal et intuitive dans Blender
-
-### 📱 Application Mobile Intelligente
-- **Interface responsive** : Design optimisé pour tous les écrans de smartphones
-- **Personnalisation de thème** : Choix de couleurs pour adapter l'interface à votre workflow
-- **Gestion de l'inertie** : Contrôlez le lissage de mouvement selon vos préférences
-- **Settings persistants** : Vos préférences sont sauvegardées automatiquement
+Professional smartphone-to-Blender camera control at your fingertips. Transform your device into a wireless camera remote with real-time control, live viewport streaming, and precise animation recording.
 
 ---
 
-## 🚀 Cas d'usage
+## Overview
 
-### Production Cinématographique
-- Contrôlez les caméras d'animation pendant les sessions de motion capture
-- Prévisualisez les mouvements de caméra en post-production
-- Synchronisez plusieurs caméras pour des scènes complexes
-
-### Archéologie Numérique & Virtualisation
-- Créez des parcours interactifs à travers des modèles 3D
-- Documentez des scènes avec des mouvements fluides et précis
-- Générez des animations de présentation en temps réel
-
-### Design d'Intérieur & Architecture
-- Présentez des projets avec des mouvements de caméra professionnels
-- Créez des flythrough dynamiques
-- Explorez les espaces avec un contrôle total
-
-### Visualisation Architecturale
-- Animez caméras pour des films de présentation
-- Testez différents angles et mouvements rapidement
-- Synchronisez plusieurs points de vue pour un storytelling sophistiqué
+BCamRemote revolutionizes Blender camera workflow by enabling intuitive smartphone control. Manage multiple cameras, capture fluid animations, and preview instantly—all from your mobile device.
 
 ---
 
-## 🛠️ Configuration Technique
+## Core Features
 
-### Prérequis
-- **Blender** 4.5+
-- **Smartphone Android** (modernes)
-- **Réseau local** (WiFi recommandé)
+### Intuitive Camera Control
+
+- **Motion-Based Orientation** - Use smartphone accelerometer + gyroscope for real-time camera rotation
+- **Smooth Movement** - Physics-based inertia system for natural, controlled motion
+- **Focal Distance Control** - Adjust focus distance directly from your mobile interface
+- **Multi-Axis Joystick** - Full 6-DOF freedom (X, Y, Z) with precise navigation
+
+### Live Video Streaming
+
+- **Real-Time Viewport** - View your Blender renders directly on your phone
+- **Configurable Resolutions** - SD (854x480), HD (1280x720), Full HD (1920x1080), up to 4K custom
+- **Adaptive Compression** - Optimized for stable performance even on unstable connections
+- **Minimal Latency** - Network streaming tuned for maximum responsiveness
+
+### Multi-Camera Management
+
+- **Create & Manage Multiple Cameras** - Switch seamlessly between different scene cameras
+- **Auto-Selection Sync** - Real-time camera selection updates in Blender
+- **Keyframe Status Indicator** - Quickly see which cameras have keyframes
+- **Safe Deletion** - Confirmation dialogs prevent accidental losses
+
+### Animation Recording
+
+- **Precision Motion Capture** - Record every camera movement with high fidelity
+- **Automatic Keyframes** - Generate keyframes from motion data automatically
+- **Timeline Synchronization** - Perfect alignment with Blender timeline (configurable FPS)
+- **Instant Preview** - Test animations before committing
+- **Keyframe Management** - View, preview, or delete existing keyframes
+
+### Streamlined Connection
+
+- **Built-In QR Code** - Auto-generated code for instant connection without manual setup
+- **Automatic IP Detection** - Server address configures itself
+- **Robust Socket Server** - Stable bidirectional communication
+- **Simple Setup** - Minimal, intuitive Blender interface
+
+### Smart Mobile Application
+
+- **Responsive Interface** - Optimized for all smartphone screen sizes
+- **Theme Customization** - Choose colors to match your workflow
+- **Inertia Control** - Adjust motion smoothing to your preference
+- **Persistent Settings** - Your preferences save automatically
+
+---
+
+## Use Cases
+
+### Cinematic Production
+- Control camera animation during motion capture sessions
+- Preview camera movements in post-production
+- Synchronize multiple cameras for complex scenes
+
+### Digital Archaeology & Virtualization
+- Create interactive tours through 3D models
+- Document scenes with smooth, precise movements
+- Generate real-time presentation animations
+
+### Interior & Architectural Design
+- Present projects with professional camera movements
+- Create dynamic flythroughs
+- Explore spaces with full control
+
+### Architectural Visualization
+- Animate cameras for presentation films
+- Rapidly test different angles and movements
+- Coordinate multiple viewpoints for sophisticated storytelling
+
+---
+
+## Technical Configuration
+
+### Requirements
+- Blender 4.5 or newer
+- Modern Android smartphone
+- Local network (WiFi recommended)
 
 ### Installation
-1. Installez l'addon dans Blender via `Preferences > Add-ons > Install`
-2. Activez **BCamRemote**
-3. Accédez à `View3D > Sidebar > BS Socket`
-4. Scannez le QR code généré avec votre téléphone
+1. Install addon in Blender via `Preferences > Add-ons > Install`
+2. Enable BCamRemote
+3. Navigate to `View3D > Sidebar > BS Socket`
+4. Scan the generated QR code with your phone
 
-### Configuration
-- Ajustez l'hôte et le port selon votre réseau
-- Sélectionnez la caméra Blender à contrôler
-- Choisissez la résolution de streaming souhaitée
-
----
-
-## 📊 Avantages Clés
-
-| Avantage | Bénéfice |
-|----------|----------|
-| **Real-time Control** | Feedback instantané sur vos mouvements |
-| **Multi-Camera** | Gérez plusieurs caméras sans complexity |
-| **Recording System** | Capture précise des animations |
-| **Wireless** | Mobilité totale dans votre espace de travail |
-| **User-Friendly** | Interface intuitive pour tous les niveaux |
-| **Performance** | Optimisé pour une fluidité maximale |
+### Setup
+- Configure host and port for your network
+- Select the Blender camera to control
+- Choose your preferred streaming resolution
 
 ---
 
-## 🎯 Conclusion
+## Key Advantages
 
-**BCamRemote** combine la puissance du contrôle physique avec la précision numérique. C'est l'outil idéal pour les animateurs, les architechniques, les cinéastes et les créateurs 3D qui recherchent un moyen efficace et naturel de contrôler les caméras Blender.
+| Feature | Benefit |
+|---------|---------|
+| Real-Time Control | Instant feedback on every movement |
+| Multi-Camera Support | Manage multiple cameras effortlessly |
+| Recording System | Precise animation capture |
+| Wireless Operation | Complete mobility in your workspace |
+| User-Friendly | Intuitive interface for all skill levels |
+| High Performance | Optimized for maximum fluidity |
 
-Transformez votre workflow d'animation en une expérience immersive et intuitive.
+---
 
-**BCamRemote** : *Votre smartphone, votre télécommande créative.*
+## Why BCamRemote?
+
+BCamRemote bridges physical control with digital precision. Whether you're an animator, architect, filmmaker, or 3D creator seeking an efficient and natural way to control Blender cameras, BCamRemote delivers an immersive, intuitive experience.
+
+Transform your animation workflow into something truly interactive and responsive.
+
+**BCamRemote** - *Your smartphone, your creative remote control.*
